@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="GraphQL.Client" Version="4.0.2" />
+      <PackageReference Include="GraphQL.Client.Abstractions" Version="4.0.2" />
+      <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="4.0.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta1" />
+      <PackageReference Include="shopifysharp" Version="5.15.0" />
+    </ItemGroup>
+
+</Project>

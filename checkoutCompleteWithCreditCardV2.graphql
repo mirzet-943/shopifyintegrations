@@ -1,0 +1,16 @@
+mutation checkoutCompleteWithCreditCardV2($checkoutId: ID!, $payment: CreditCardPaymentInputV2!) {
+    checkoutCompleteWithCreditCardV2(checkoutId: $checkoutId, payment: $payment) {
+        checkout {
+            id
+            email
+            orderStatusUrl
+        }
+        checkoutUserErrors {
+            field
+            message
+        }
+        payment {
+            id
+        }
+    }
+}
